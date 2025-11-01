@@ -23,8 +23,8 @@ import * as ImagePicker from 'expo-image-picker';
 import { createClient } from '@supabase/supabase-js';
 
 // Supabase Configuration - Replace with your actual credentials
-const supabaseUrl = 'https://rwmjevyosxqwyxhsmfda.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ3bWpldnlvc3hxd3l4aHNtZmRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ0MjU4NzksImV4cCI6MjA3MDAwMTg3OX0.sELr9vsvi4BwaUUq0ldUuDuSh7JVTH8TW-YpwFk5c_Y';
+const supabaseUrl = 'BLANK';
+const supabaseKey = 'BLANK';
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
